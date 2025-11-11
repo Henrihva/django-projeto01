@@ -5,7 +5,7 @@ from django.shortcuts import render
 def my_home(request):
     # return http response 
     # return HttpResponse('Pagina INICIAL alterada...!!!')
-    return render(request,'recipes/home.html', context={
+    return render(request,'recipes/pages/home.html', context={
         'name': 'Henri Vieira',
     })
 
