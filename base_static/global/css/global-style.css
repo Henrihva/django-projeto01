@@ -1,4 +1,5 @@
 body {
-    background: red;
+    /* background: red; */
+    background: #f9f9f9;
 }
  /* estas linhas acima mostra Staticfiles_dir no django */
