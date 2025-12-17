@@ -3,21 +3,11 @@ from django.shortcuts import render
 
 # Create your views here.
 def home(request):
-    # return http response 
-    # return HttpResponse('Pagina INICIAL alterada...!!!')
     return render(request,'recipes/pages/home.html', context={
         'name': 'Henri Vieira',
     })
 
-# def my_sobre(request):
-#     # return http response 
-#     return HttpResponse('pagina Sobre ...!!!')
-
-# def my_contato(request):
-#     # return http response 
-#     return HttpResponse('Página Contatos ...!!!')
-
 def recipe(request, id):
-    return render(request,'recipes/pages/home.html', context={
+    return render(request,'recipes/pages/recipe-view.html', context={
         'name': 'Henri Vieira',
     })
