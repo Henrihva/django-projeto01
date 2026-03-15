@@ -1,5 +1,5 @@
 from django.contrib import admin
-
+#Teste comentario
 # Register your models here.
 from .models import Category
 from .models import Category, Recipe
